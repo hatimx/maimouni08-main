@@ -906,3 +906,21 @@ footer .footer-copy-right a {
 }
 
 /* End Footer */
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: .6rem;
+    background-color: var(--body-color);
+    height: .3rem;
+}
+
+::-webkit-scrollbar-thumb {
+    width: .6rem;
+    background-color: var(--paragraph-color);
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    width: .6rem;
+    background-color: var(--text-color);
+}

@@ -37,7 +37,7 @@
 }
 
 .cart-table thead tr th {
-    padding: 2rem 0.5rem;
+    padding: 2rem 1rem;
     color: var(--text-color);
     border-bottom: 1px solid var(--paragraph-color);
     font-size: 1.1rem;
@@ -91,5 +91,9 @@
 button {
     display: flex;
     justify-content: flex-end;
-
 }
+
+/* .sub-total-container button {
+    width: 100%;
+    white-space: nowrap;
+} */

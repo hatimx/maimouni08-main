@@ -93,7 +93,6 @@ button {
     justify-content: flex-end;
 }
 
-/* .sub-total-container button {
-    width: 100%;
+.sub-total-container button {
     white-space: nowrap;
-} */
+}

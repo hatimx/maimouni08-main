@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maimouni's Furniture Store © 2024">
+    <!-- Fav Icon -->
+    <link rel="icon" href="./assets/logo.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- Bootstrap Library -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Cairo:wght@700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kaushan+Script&family=Nosifer&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Ubuntu:ital@0;1&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- Remix Icons -->
+    <link rel="stylesheet" href="../css/remixicon.css">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- Product Css -->
+    <link rel="stylesheet" href="../css/product.css">
+    <title>Maimouni's Furniture</title>
+</head>
+
+<body>
+
+    <!-- Start NavBar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand me-0" href="../index.html">Maimouni.<span>08</span></a>
+
+            <div class="icons ps-md-3 ps-sm-0 ms-md-3 order-lg-3">
+                <a href="#"><i class="ri-shopping-cart-2-line"></i></a>
+                <a href="#"><i class="ri-user-3-line"></i></a>
+                <i class="ri-moon-line" id="icon"></i>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 active fw-bold" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown pt-lg-2 ">
+                            <button class="btn dropdown-toggle nav-link ps-2" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Category
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" target="_blank" class="dropdown-item nav-link ps-2"
+                                        type="button">Accessories</a>
+                                </li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Bedroom</a></li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Chairs</a></li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Lighting</a></li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Living room</a></li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Mirrored furniture
+                                    </a></li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Sofas</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- End NavBar -->
+
+    <!-- Start Product Section -->
+    <section class="single-product">
+        <div class="custom-container">
+            <div class="row row-gap-5">
+                <div class="col-lg-6 col-md-6 col-sm-12 card-product">
+
+                    <img src="../assets/accessories/photo2.jpg" class="img-fluid w-100 pb-2 main-img" id="main-img">
+                    <div class="small-img-group">
+                        <div class="small-img-col">
+                            <img src="../assets/accessories/photo1.png" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="../assets/accessories/photo3.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="../assets/accessories/photo4.png" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="../assets/accessories/photo5.png" width="100%" class="small-img">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 card-product-info">
+                    <div class="card-product-info-header">
+                        <div class="d-flex w-100 align-items-center ">
+                            <h3 class="mb-0">Carmen Douce King Cube</h3>
+                            <span class="badge rounded-pill bg-success ms-3">In Stock</span>
+                        </div>
+                        <small>3 Pieces Black Color</small>
+
+                        <div class="row">
+                            <div class="d-flex single_product_stars">
+
+                                <span><i class="ri-star-s-fill"></i></span>
+                                <span><i class="ri-star-s-fill"></i></span>
+                                <span><i class="ri-star-s-fill"></i></span>
+                                <span><i class="ri-star-s-fill"></i></span>
+                                <span><i class="ri-star-half-line"></i></span>
+                            </div>
+                            <p class="fs-6 fw-light mb-0 rate-stars"> 4.8/5 Star Rating </p>
+                        </div>
+
+                    </div>
+                    <div class="card-product-info-content-container">
+                        <div class="card-product-info-content">
+
+                            <p>Plongez dans l'élégance contemporaine avec l'ensemble "Carmen Douce King Cube" de trois
+                                pièces, dans une couleur noire sophistiquée. Ces cubes royaux offrent une fusion
+                                parfaite de fonctionnalité et de style, ajoutant une touche moderne à votre espace.
+
+                                Le design épuré et minimaliste de ces pièces les rend polyvalentes, parfaites pour tout
+                                type de décoration intérieure. Que ce soit dans le salon, sur un meuble TV ou dans la
+                                chambre à coucher, l'ensemble "Carmen Douce King Cube" offre une solution élégante pour
+                                organiser et présenter vos objets préférés.
+
+                                La couleur noire profonde ajoute une note de chic contemporain, tandis que la forme
+                                cubique apporte une esthétique moderne. Ces pièces se marient harmonieusement avec
+                                divers styles décoratifs, apportant une touche d'élégance à chaque coin de votre maison.
+                                Transformez votre espace avec cet ensemble polyvalent, où le design et la fonction se
+                                rencontrent avec sophistication.</p>
+
+                        </div>
+                        <a class="btn btn-link p-0 pt-2 read-btn" onclick="showMore()">Read More</a>
+                        <div class="row pt-3">
+                            <div class="col-6 ">
+                                <div class="card-product-info-header-right">
+                                    <strong class="fs-2">31750 <small>MAD</small></strong>
+                                    <div class="prices"><strong class="fs-3">3075</strong><strong>$</strong> </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+
+                            </div>
+
+
+                        </div>
+                        <div class="row pt-2">
+                            <div class="col-12">
+                                <div class="card-product-info-header-left">
+                                    <a class="btn btn-primary rounded rounded-pill w-100 order-now"> Order Now <i
+                                            class="ri-shopping-cart-2-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+    <!-- End Product Section -->
+
+
+    <!-- START Review-section -->
+    <section class="reviews">
+        <div class="custom-container">
+            <div class="header-text">
+                <h2>Testemonials</h2>
+                <p>See what others are saying about us!</p>
+            </div>
+            <div class="my-row d-flex justify-content-between align-items-center gap-2">
+                <div class="card-review  p-2 border rounded-2">
+
+
+
+                    <div class=" d-flex single_product_stars align-items-center">
+
+                        <div class="side-profile-img mb-1">
+                            <img width="28" src="../assets/user-placeholder.png" alt="user-image">
+                        </div>
+
+                        <span><i class="ri-star-s-fill ps-2"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-half-line"></i></span>
+                    </div>
+
+                    <div class="content">
+                        <h4>Mohamed Ali</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Selqui, ipsa.</p>
+                    </div>
+                </div>
+                <div class="card-review  p-2 border  rounded-2">
+
+
+
+                    <div class=" d-flex single_product_stars align-items-center">
+
+                        <div class="side-profile-img mb-1">
+                            <img width="28" src="../assets/user-placeholder.png" alt="user-image">
+                        </div>
+
+                        <span><i class="ri-star-s-fill ps-2"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-half-line"></i></span>
+                    </div>
+
+                    <div class="content">
+                        <h4>Mohamed Ali</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Selqui, ipsa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row d-flex justify-content-between align-items-center gap-2 mt-2">
+                <div class="card-review  p-2 border rounded-2">
+
+
+
+                    <div class=" d-flex single_product_stars align-items-center">
+
+                        <div class="side-profile-img mb-1">
+                            <img width="28" src="../assets/user-placeholder.png" alt="user-image">
+                        </div>
+
+                        <span><i class="ri-star-s-fill ps-2"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-half-line"></i></span>
+                    </div>
+
+                    <div class="content">
+                        <h4>Mohamed Ali</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Selqui, ipsa.</p>
+                    </div>
+                </div>
+                <div class="card-review  p-2 border  rounded-2">
+
+
+
+                    <div class=" d-flex single_product_stars align-items-center">
+
+                        <div class="side-profile-img mb-1">
+                            <img width="28" src="../assets/user-placeholder.png" alt="user-image">
+                        </div>
+
+                        <span><i class="ri-star-s-fill ps-2"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-s-fill"></i></span>
+                        <span><i class="ri-star-half-line"></i></span>
+                    </div>
+
+                    <div class="content">
+                        <h4>Mohamed Ali</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Selqui, ipsa.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- END Review-section -->
+
+
+
+
+
+    <!-- Start Product -->
+    <section class="top-sales">
+
+        <div class="custom-container">
+            <div class="header-text">
+                <h2>Recommended</h2>
+                <p>Explore our tailored picks</p>
+            </div>
+            <div class="row ">
+                <!-- Start Card -->
+                <div class="col-lg-3  col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="product-image">
+                            <img src="../assets/chair.jpeg" class="card-img-top product-img" alt="product">
+                        </div>
+                        <div class="card-body">
+
+
+                            <div class="product-infos">
+
+                                <h5>Canapé</h5>
+                                <p class="card-text">Canapé simple nordique en ferge</p>
+                            </div>
+                            <div class="product-price">
+                                <p>2500<span> Dhs</span></p>
+                                <p>250<span> $</span></p>
+
+                            </div>
+                            <div class="cardfooter">
+
+                                <div class="stars">
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#"><i class="ri-share-line"></i></a>
+                                    <a href="#"><i class="ri-shopping-cart-2-line"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card -->
+                <!-- Start Card -->
+                <div class="col-lg-3  col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class=" product-image">
+                            <img src="../assets/sofa2.jpeg" class="card-img-top product-img" alt="product">
+                        </div>
+                        <div class="card-body">
+
+
+                            <div class="product-infos">
+
+                                <h5>Canapé</h5>
+                                <p class="card-text">Canapé simple nordique en ferge</p>
+                            </div>
+                            <div class="product-price">
+                                <p>2500<span> Dhs</span></p>
+                                <p>250<span> $</span></p>
+
+                            </div>
+                            <div class="cardfooter">
+
+                                <div class="stars">
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#"><i class="ri-share-line"></i></a>
+                                    <a href="#"><i class="ri-shopping-cart-2-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card -->
+                <!-- Start Card -->
+                <div class="col-lg-3  col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="product-image">
+                            <img src="../assets/sofa3.jpeg" class="card-img-top product-img" alt="product">
+                        </div>
+                        <div class="card-body">
+
+
+                            <div class="product-infos">
+
+                                <h5>Canapé</h5>
+                                <p class="card-text">Canapé simple nordique en ferge</p>
+                            </div>
+                            <div class="product-price">
+                                <p>2500<span> Dhs</span></p>
+                                <p>250<span> $</span></p>
+
+                            </div>
+                            <div class="cardfooter">
+
+                                <div class="stars">
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#"><i class="ri-share-line"></i></a>
+                                    <a href="#"><i class="ri-shopping-cart-2-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card -->
+                <!-- Start Card -->
+                <div class="col-lg-3  col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="product-image">
+                            <img src="../assets/sofa5.jpeg" class="card-img-top product-img" alt="product">
+                        </div>
+                        <div class="card-body">
+
+
+                            <div class="product-infos">
+
+                                <h5>Canapé</h5>
+                                <p class="card-text">Canapé simple nordique en ferge</p>
+                            </div>
+                            <div class="product-price">
+                                <p>2500<span> Dhs</span></p>
+                                <p>250<span> $</span></p>
+
+                            </div>
+                            <div class="cardfooter">
+
+                                <div class="stars">
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                    <i class="ri-star-s-fill float-start"></i>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#"><i class="ri-share-line"></i></a>
+                                    <a href="#"><i class="ri-shopping-cart-2-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card -->
+
+            </div>
+        </div>
+
+
+    </section>
+    <!-- End Products -->
+
+
+    <!-- Start Footer -->
+    <footer class="text-center text-lg-start mb-3">
+        <!-- Grid container -->
+        <div class="custom-container p-4">
+            <!--Grid row-->
+            <div class="row mt-4">
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4 ">Maimouni08</h5>
+
+                    <p>
+                        At Maimouni08, we believe your home should be a reflection of your unique style and
+                        personality. That's why we curate a collection of stunning and versatile home decor
+                        that
+                        inspires creativity and sparks joy.
+                    </p>
+
+                    <div class="mt-4 footer-socials">
+                        <!-- Facebook -->
+                        <a href="#"><i class="ri-facebook-circle-line"></i></a>
+                        <!-- Instagram -->
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                        <!-- TikTok -->
+                        <a href="#"><i class="ri-tiktok-fill"></i></a>
+                        <!-- Youtube -->
+                        <a href="#"><i class="ri-youtube-line"></i></a>
+                    </div>
+
+                </div>
+
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4 pb-1">Informations</h5>
+
+                    <ul class="fa-ul" style="margin-left: 1.65em;">
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Av. Al
+                                Afou, Tanger
+                                90060</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                                class="ms-2">contact@maimouni08.com</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+212
+                                661-187832</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ">
+                    <h5 class=" text-uppercase mb-4">Opening hours</h5>
+
+                    <table class="table text-center">
+                        <tbody class=" fw-normal">
+                            <tr>
+                                <td>Mon - Tue:</td>
+                                <td>10:30am – 9:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Wed - Thu:</td>
+                                <td>10:30am – 9:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Fri - Sun:</td>
+                                <td>10:30am – 9:00pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+            <div
+                class="d-flex text-center align-items-center justify-content-around flex-wrap pt-4 mt-3 pb-1  footer-conditions">
+                <a href="Views/Terms&Conditions.html">Terms & Conditions</a>
+                <a href="Views/PrivacyPolicy.html">Privacy Policy</a>
+                <a href="Views/DeliveryInformation.html">Delivery Information</a>
+                <a href="Views/RefundPolicy.html">Refund Policy</a>
+                <a href="Views/CookiePolicy.html">Cookie Policy</a>
+            </div>
+            <div class="text-center mt-3 pt-4 footer-copy-right">
+                © 2024 Copyright:
+                <a class="" href="">Maimouni08.com</a>
+            </div>
+        </div>
+        <!-- Grid container -->
+    </footer>
+
+    <!-- </div> -->
+    <!-- End of .container -->
+    <!-- ========== End Section ========== -->
+
+
+    <!-- End Footer -->
+    <script>
+        var mainImg = document.getElementById('main-img');
+        var smallImg = document.getElementsByClassName('small-img');
+
+        for (let i = 0; i < 4; i++) {
+            smallImg[i].onclick = function () {
+                let imgSrc = mainImg.src;
+                mainImg.src = smallImg[i].src;
+                smallImg[i].src = imgSrc;
+            }
+        }
+
+        function showMore() {
+            var content = document.querySelector('.card-product-info-content');
+            var button = document.querySelector('.read-btn');
+
+            content.classList.toggle('show-all');
+
+            if (content.classList.contains('show-all')) {
+                button.textContent = 'Read Less';
+            } else {
+                button.textContent = 'Read More';
+            }
+        }
+    </script>
+    <!-- JavaScript -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+        integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/loadingPage.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+:root {
+    --body-color: #F4F5F8;
+    --container-color: #FEFEFE;
+    --main-color: #C99E7C;
+    --light-main: #d27a36b6;
+    /* for buttons */
+    --first-color: #fff;
+    --secondary-color: #5E6F7E;
+
+    /* for texts */
+    --text-color: #4D5F71;
+    --paragraph-color: #8F9BA5;
+
+    /* Main Padding */
+    --mainPadding: 90px;
+
+}
+
+.section-cart {
+    padding-top: var(--mainPadding);
+    padding-bottom: var(--mainPadding);
+}
+
+.table-content {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.cart-table {
+    background-color: var(--container-color);
+    width: 100%;
+    text-align: left;
+    border-radius: 1rem;
+    white-space: nowrap;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+.cart-table thead tr th {
+    padding: 2rem 0.5rem;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--paragraph-color);
+    font-size: 1.1rem;
+}
+
+.cart-table thead tr th:not(:first-child) {
+    text-align: center;
+}
+
+.cart-table tbody tr td {
+    padding: 1rem;
+    color: var(--text-color);
+}
+
+.cart-table tbody tr td:nth-child(2) {
+    white-space: wrap;
+    min-width: 150px;
+}
+
+.cart-table tbody tr {
+    text-align: center;
+}
+
+.cart-table tbody tr td:nth-child(2) {
+    text-align: left;
+}
+
+.cart-table tbody tr td .cart-image {
+    max-width: 65px;
+
+    border-radius: .5rem;
+}
+
+.cart-table tbody tr td input[type=number] {
+    background-color: var(--body-color);
+    padding: .5rem;
+    width: 3rem;
+    color: var(--text-color);
+    border: 0;
+    outline: 0;
+    border-radius: .3rem;
+    text-align: center;
+}
+
+.sub-total {
+    margin-top: calc(var(--mainPadding) / 2);
+    color: var(--text-color);
+}
+
+.sub-total-container,
+button {
+    display: flex;
+    justify-content: flex-end;
+
+}

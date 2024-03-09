@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maimouni's Furniture Store © 2024">
+    <!-- Fav Icon -->
+    <link rel="icon" href="./assets/logo.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- Bootstrap Library -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Cairo:wght@700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kaushan+Script&family=Nosifer&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Ubuntu:ital@0;1&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- Remix Icons -->
+    <link rel="stylesheet" href="../css/remixicon.css">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- Login Css -->
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Register | Maimouni's Furniture</title>
+</head>
+
+<body>
+
+
+    <!-- Start NavBar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand me-0" href="#">Maimouni.<span>08</span></a>
+
+            <div class="icons ps-md-3 ps-sm-0 ms-md-3 order-lg-3">
+                <a href="Views/Single_Product.html"><i class="ri-shopping-cart-2-line"></i></a>
+                <a href="#"><i class="ri-user-3-line"></i></a>
+                <i class="ri-moon-line" id="icon"></i>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 active fw-bold" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown pt-lg-2 ">
+                            <button class="btn dropdown-toggle nav-link ps-2" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Category
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" target="_blank" class="dropdown-item nav-link ps-2"
+                                        type="button">Accessories</a>
+                                </li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Bedroom</a></li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Chairs</a></li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Lighting</a></li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Living room</a></li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Mirrored furniture
+                                    </a></li>
+                                <li><a class="dropdown-item nav-link ps-2" type="button">Sofas</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- End NavBar -->
+
+    <section class="login">
+
+        <div class="custom-container">
+            <div class="login-container p-4 h-100  rounded-4 col-lg-6 col-md-6 col-sm-12 mx-auto">
+                <div class="header-title text-center mb-4">
+                    <h4 class="fw-semibold">Create Account</h4>
+                </div>
+                <form action="/" method="post">
+                    <div class="mb-3">
+                        <label for="username" class="form-label fw-semibold">Username</label>
+                        <input type="text" class="form-control" name="username" id="username"
+                            placeholder="UsernameExample" />
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-semibold">Email</label>
+                        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId"
+                            placeholder="abc@mail.com" />
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label fw-semibold">Password</label>
+                        <input type="password" class="form-control" name="password" id="password"
+                            placeholder="***********" />
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="password-confirm" class="form-label fw-semibold">Confirm Password</label>
+                        <input type="password" class="form-control" name="passwordConfirm" id="password-confirm"
+                            placeholder="***********" />
+
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-primary accordion rounded-pill" type="submit">Create account</button>
+                    </div>
+                    <div class="mb-3 to-sign">
+                        <p>Have an account already? <a href="Login.html"> Log in</a></p>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- JavaScript -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+        integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/loadingPage.js"></script>
+</body>
+
+</html>

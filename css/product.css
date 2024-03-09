@@ -1,0 +1,127 @@
+:root {
+    --body-color: #F4F5F8;
+    --container-color: #FEFEFE;
+    --main-color: #C99E7C;
+    --light-main: #d27a36b6;
+    /* for buttons */
+    --first-color: #fff;
+    --secondary-color: #5E6F7E;
+
+    /* for texts */
+    --text-color: #4D5F71;
+    --paragraph-color: #8F9BA5;
+
+    /* Main Padding */
+    --mainPadding: 90px;
+
+}
+.single-product {
+    padding-block: calc(var(--mainPadding) / 2);
+}
+@media (max-width: 767px) {
+    .single-product {
+        padding-top: 20px;
+    }
+}
+
+.small-img-group {
+
+    display: flex;
+    justify-content: space-between;
+    max-height: 100%;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.card-product{
+    padding: 10px;
+    background: var(--container-color);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    border: 1px solid rgba(243, 241, 241, 0.33);
+    height: fit-content;
+    /* max-height: 100%; */
+    flex-shrink: 0;
+}
+.card-product .main-img{
+    border-radius: 12px;
+    padding-bottom: 10px;
+}
+
+.small-img-col img {
+    border-radius: 10px;
+}
+
+.rate-stars{
+color: var(--paragraph-color);
+}
+
+.card-product-info{
+    padding: 10px ;
+}
+
+.single_product_stars span{
+    color: var(--main-color);
+}
+/* product header */
+
+.card-product-info-header h3{
+ color: var(--text-color);
+}
+.card-product-info-header small{
+ color: var(--text-color);
+}
+@media (max-width:767px){
+    .my-row {
+        flex-wrap: wrap;
+    }
+}
+.card-review {
+    width: 98%;
+}
+.card-product-info-content {
+    overflow: hidden;
+    max-height: 95px; /* Adjust as per your need */
+    transition: max-height 0.3s ease;
+}
+.card-product-info-content  p{
+    padding-top: .5rem;
+    color: var(--paragraph-color);
+}
+/* .spacer{
+    margin-top: 10px;
+} */
+.card-product-info-content.show-all {
+    max-height: none;
+}
+
+.card-product-info .card-product-info-content{
+    font-size: 14px;
+}
+.card-product-info-header-right > strong{
+    color: var(--main-color);
+}
+.card-product-info-header-right .prices{
+    color: var(--text-color);
+}
+/* end */
+/* Start Reviews */
+.reviews {
+    padding-block: calc(var(--mainPadding) / 2);
+}
+@media (max-width: 767px) {
+    .reviews {
+        padding-top: 20px;
+    }
+}
+.my-row .content h4{
+    color: var(--text-color);
+}
+.my-row .content p{
+    color: var(--paragraph-color);
+}
+/* End Reviews */

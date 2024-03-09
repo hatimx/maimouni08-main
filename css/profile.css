@@ -1,0 +1,48 @@
+:root {
+    --body-color: #F4F5F8;
+    --container-color: #FEFEFE;
+    --main-color: #C99E7C;
+    --light-main: #d27a36b6;
+    /* for buttons */
+    --first-color: #fff;
+    --secondary-color: #5E6F7E;
+
+    /* for texts */
+    --text-color: #4D5F71;
+    --paragraph-color: #8F9BA5;
+
+    /* Main Padding */
+    --mainPadding: 90px;
+
+}
+.profile {
+    padding: calc(var(--mainPadding) / 2) 0;
+}
+
+.profile .header-title h4 {
+    color: var(--text-color);
+}
+.profile form label {
+    color: var(--text-color);
+}
+.profile form input,
+.profile form input:focus {
+    color: var(--text-color);
+    background-color: var(--container-color);
+}
+.profile form input::placeholder {
+    color: var(--paragraph-color);
+    font-size: .90rem;
+}
+.account-info {
+    border-right: 5px solid var(--paragraph-color);
+}
+@media (max-width:767px){
+    .account-info {
+        border-right: none;
+    }
+}
+
+.profile .information {
+    color: var(--text-color);
+}

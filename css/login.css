@@ -1,0 +1,55 @@
+:root {
+    --body-color: #F4F5F8;
+    --container-color: #FEFEFE;
+    --main-color: #C99E7C;
+    --light-main: #d27a36b6;
+    /* for buttons */
+    --first-color: #fff;
+    --secondary-color: #5E6F7E;
+
+    /* for texts */
+    --text-color: #4D5F71;
+    --paragraph-color: #8F9BA5;
+
+    /* Main Padding */
+    --mainPadding: 90px;
+
+}
+
+.login {
+    padding: calc(var(--mainPadding) / 2) 0;
+}
+
+@media (max-width: 767px) {
+    .login {
+        padding-top: 20px;
+    }
+}
+
+.login-container {
+    background: var(--container-color);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.login-container .header-title h4 {
+    color: var(--text-color);
+}
+
+.login-container form label {
+    color: var(--text-color);
+}
+
+.login-container form input,
+.login-container form input:focus {
+    color: var(--text-color);
+    background-color: var(--container-color);
+}
+
+.login-container form input::placeholder {
+    color: var(--paragraph-color);
+    font-size: .90rem;
+}
+
+.to-sign p {
+    color: var(--paragraph-color);
+}

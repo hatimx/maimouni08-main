@@ -1,0 +1,21 @@
+.contact {
+    margin-top: calc(var(--mainPadding) / 2);
+    margin-bottom: calc(var(--mainPadding) / 2);
+}
+
+.contact-text h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: var(--text-color);
+}
+
+.contact-text h3 span {
+    font-size: 1.15rem;
+    color: var(--main-color);
+}
+
+.our-socials a i {
+    font-size: 1.8rem;
+    color: var(--main-color);
+    margin-right: 1rem;
+}

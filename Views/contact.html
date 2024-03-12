@@ -23,14 +23,15 @@
     <link rel="stylesheet" href="../css/remixicon.css">
     <!-- Main Css -->
     <link rel="stylesheet" href="../css/main.css">
-    <!-- Cart Css -->
-    <link rel="stylesheet" href="../css/cart.css">
-    <!-- Profile Css -->
-    <link rel="stylesheet" href="../css/profile.css">
-    <title>Profile | Maimouni's Furniture</title>
+    <!-- contact Css -->
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact Us | Maimouni's Furniture</title>
 </head>
 
 <body>
+
+
+    <!-- Start NavBar -->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
@@ -87,94 +88,38 @@
 
         </div>
     </nav>
+    <!-- End NavBar -->
 
 
-    <section class="profile">
+    <!-- Start Contact -->
+    <section class="contact">
         <div class="custom-container">
-            <div class="row row-gap-4 pb-5 ">
-                <div class="col text-end ">
-                    <a href="#" class="btn btn-primary">Your orders <i class="ri-shopping-bag-line mb-3"></i></a>
-                    <a href="#" class="btn btn-outline-danger ms-2">Logout <i class="ri-logout-box-r-line"></i></a>
-                </div>
+            <div class="header-text">
+                <h2>Contact Us</h2>
+                <p>Contact us for more information.</p>
             </div>
-
-            <div class="row row-gap-4 ">
-                <div class="col-lg-4 col-md-4 col-sm-12 mx-auto account-info text-md-center text-sm-left">
-                    <div class="header-title">
-                        <h4 class="fw-semibold mb-5">Account Information</h4>
-                    </div>
-                    <div class="information">
-                        <p class="fs-5 fw-semibold mb-4">Username : <span>Ahmed</span> </p>
-                        <p class="fs-5 fw-semibold mb-4">Email : <span>Ahmed@gmail.com</span> </p>
-                        <!-- <a href="#" class="btn btn-primary">Your orders <i class="ri-shopping-bag-line mb-3"></i></a>
-                        <a href="#" class="btn btn-outline-danger">Logout</a> -->
-                    </div>
+            <div class="col">
+                <div class="contact-text text-center ">
+                    <h3>Address : <span>Av. Al Afou, Tanger 90060</span></h3>
+                    <h3>Email : <span>contact@maimouni08.com</span></h3>
+                    <h3>Phone : <span>0661-187832</span></h3>
+                    <h3>We work 24/7 to answer your questions</h3>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 mx-auto">
-                    <div class="header-title text-lg-center text-md-center text-sm-left">
-                        <h4 class="fw-semibold mb-5">Change Password</h4>
-                    </div>
-                    <form action="/" method="post">
-
-                        <div class="mb-3">
-                            <label for="password" class="form-label fw-semibold">Password</label>
-                            <input type="password" class="form-control" name="password" id="password"
-                                placeholder="***********" />
-
-                        </div>
-                        <div class="mb-3">
-                            <label for="password-confirm" class="form-label fw-semibold">Confirm Password</label>
-                            <input type="password" class="form-control" name="passwordConfirm" id="password-confirm"
-                                placeholder="***********" />
-
-                        </div>
-
-                        <div class="mb-3 text-center ">
-                            <button class="btn btn-primary accordion rounded-pill" type="submit">Save changes</button>
-                        </div>
-                    </form>
+                <div class="our-socials text-center">
+                    <!-- Facebook -->
+                    <a href="#"><i class="ri-facebook-circle-line"></i></a>
+                    <!-- Instagram -->
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <!-- TikTok -->
+                    <a href="#"><i class="ri-tiktok-fill"></i></a>
+                    <!-- Youtube -->
+                    <a href="#"><i class="ri-youtube-line"></i></a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Start Orders -->
-    <section class="section-cart orders">
-        <div class="custom-container">
-            <div class="table-content">
-                <table class="cart-table ">
-                    <thead>
-                        <tr>
-                            <th colspan="3">Shopping Bag</th>
-                            <th>Date</th>
+    <!-- End Contact -->
 
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><img src="../assets/accessories/photo1.png" alt="product" class="cart-image"></td>
-                            <td colspan="2">Carmen Douce King Cube Carmen Douce King Cube</td>
-                            <td>2024-03-03</td>
-
-                        </tr>
-                        <tr>
-                            <td><img src="../assets/accessories/photo1.png" alt="product" class="cart-image"></td>
-                            <td colspan="2">Carmen Douce King Cube Carmen Douce King Cube</td>
-                            <td>2024-03-03</td>
-
-                        </tr>
-                        <tr>
-                            <td><img src="../assets/accessories/photo1.png" alt="product" class="cart-image"></td>
-                            <td colspan="2">Carmen Douce King Cube Carmen Douce King Cube</td>
-                            <td>2024-03-03</td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-        </div>
-    </section>
-    <!-- End Orders -->
 
     <footer class="text-center text-lg-start mb-3">
         <!-- Grid container -->
@@ -259,16 +204,14 @@
                 <a href="Views/RefundPolicy.html">Refund Policy</a>
                 <a href="Views/CookiePolicy.html">Cookie Policy</a>
             </div>
+            <!-- Copyright -->
             <div class="text-center mt-3 pt-4 footer-copy-right">
                 © 2024 Copyright:
                 <a class="" href="">Maimouni08.com</a>
             </div>
+            <!-- Copyright -->
         </div>
         <!-- Grid container -->
-
-        <!-- Copyright -->
-
-        <!-- Copyright -->
     </footer>
 
     <!-- JavaScript -->
@@ -280,8 +223,5 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../js/loadingPage.js"></script>
 </body>
-
-
-
 
 </html>

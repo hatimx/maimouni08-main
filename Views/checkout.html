@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <!-- Login Css -->
     <link rel="stylesheet" href="../css/login.css">
-    <title>Register | Maimouni's Furniture</title>
+    <title>Check Out | Maimouni's Furniture</title>
 </head>
 
 <body>
@@ -94,49 +94,142 @@
     <section class="login">
 
         <div class="custom-container">
-            <div class="login-container p-4 h-100  rounded-4 col-lg-6 col-md-6 col-sm-12 mx-auto">
+            <div class="login-container p-4 h-100  rounded-4 col-lg-8 col-md-6 col-sm-12 mx-auto">
                 <div class="header-title text-center mb-4">
-                    <h4 class="fw-semibold">Create Account</h4>
+                    <h4 class="fw-semibold">Check Out</h4>
                 </div>
                 <form action="/" method="post">
                     <div class="mb-3">
-                        <label for="register-username" class="form-label fw-semibold">Username</label>
-                        <input type="text" class="form-control" name="username" id="register-username"
+                        <label for="checkout-username" class="form-label fw-semibold">Username</label>
+                        <input type="text" class="form-control" name="username" id="checkout-username"
                             placeholder="UsernameExample" />
 
                     </div>
                     <div class="mb-3">
-                        <label for="register-email" class="form-label fw-semibold">Email</label>
-                        <input type="email" class="form-control" name="email" id="register-email"
+                        <label for="checkout-email" class="form-label fw-semibold">Email</label>
+                        <input type="email" class="form-control" name="email" id="checkout-email"
                             aria-describedby="emailHelpId" placeholder="abc@mail.com" />
 
                     </div>
                     <div class="mb-3">
-                        <label for="register-password" class="form-label fw-semibold">Password</label>
-                        <input type="password" class="form-control" name="password" id="register-password"
-                            placeholder="***********" />
+                        <label for="checkout-phone" class="form-label fw-semibold">Phone</label>
+                        <input type="number" class="form-control" name="phone" id="checkout-phone"
+                            placeholder="Phone Number" />
 
                     </div>
                     <div class="mb-3">
-                        <label for="register-password-confirm" class="form-label fw-semibold">Confirm Password</label>
-                        <input type="password" class="form-control" name="passwordConfirm"
-                            id="register-password-confirm" placeholder="***********" />
+                        <label for="checkout-city" class="form-label fw-semibold">City</label>
+                        <input type="text" class="form-control" name="city" id="checkout-city" placeholder="City" />
 
                     </div>
                     <div class="mb-3">
-                        <button class="btn btn-primary accordion rounded-pill" type="submit" id="register-btn">Create
-                            account</button>
+                        <label for="address" class="form-label fw-semibold">Address</label>
+                        <input type="text" class="form-control" name="address" id="checkout-address"
+                            placeholder="Address" />
+
                     </div>
-                    <div class="mb-3 to-sign">
-                        <p>Have an account already? <a href="Login.html"> Log in</a></p>
+                    <div class="mb-3">
+                        <button class="btn btn-primary accordion rounded-pill" type="submit"
+                            id="checkout-btn">Checkout</button>
                     </div>
                 </form>
 
             </div>
         </div>
-
     </section>
 
+    <footer class="text-center text-lg-start mb-3">
+        <!-- Grid container -->
+        <div class="custom-container p-4">
+            <!--Grid row-->
+            <div class="row mt-4">
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4 ">Maimouni08</h5>
+
+                    <p>
+                        At Maimouni08, we believe your home should be a reflection of your unique style and
+                        personality. That's why we curate a collection of stunning and versatile home decor that
+                        inspires creativity and sparks joy.
+                    </p>
+
+                    <div class="mt-4 footer-socials">
+                        <!-- Facebook -->
+                        <a href="#"><i class="ri-facebook-circle-line"></i></a>
+                        <!-- Instagram -->
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                        <!-- TikTok -->
+                        <a href="#"><i class="ri-tiktok-fill"></i></a>
+                        <!-- Youtube -->
+                        <a href="#"><i class="ri-youtube-line"></i></a>
+                    </div>
+
+                </div>
+
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4 pb-1">Informations</h5>
+
+                    <ul class="fa-ul" style="margin-left: 1.65em;">
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Av. Al Afou, Tanger
+                                90060</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                                class="ms-2">contact@maimouni08.com</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+212
+                                661-187832</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ">
+                    <h5 class=" text-uppercase mb-4">Opening hours</h5>
+
+                    <table class="table text-center">
+                        <tbody class=" fw-normal">
+                            <tr>
+                                <td>Mon - Tue:</td>
+                                <td>10:30am – 9:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Wed - Thu:</td>
+                                <td>10:30am – 9:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Fri - Sun:</td>
+                                <td>10:30am – 9:00pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+            <div
+                class="d-flex text-center align-items-center justify-content-around flex-wrap pt-4 mt-3 pb-1  footer-conditions">
+                <a href="Views/Terms&Conditions.html">Terms & Conditions</a>
+                <a href="Views/PrivacyPolicy.html">Privacy Policy</a>
+                <a href="Views/DeliveryInformation.html">Delivery Information</a>
+                <a href="Views/RefundPolicy.html">Refund Policy</a>
+                <a href="Views/CookiePolicy.html">Cookie Policy</a>
+            </div>
+            <!-- Copyright -->
+            <div class="text-center mt-3 pt-4 footer-copy-right">
+                © 2024 Copyright:
+                <a class="" href="">Maimouni08.com</a>
+            </div>
+            <!-- Copyright -->
+        </div>
+        <!-- Grid container -->
+    </footer>
 
     <!-- JavaScript -->
     <script src="../js/bootstrap.bundle.min.js"></script>

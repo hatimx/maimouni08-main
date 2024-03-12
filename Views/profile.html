@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="../css/remixicon.css">
     <!-- Main Css -->
     <link rel="stylesheet" href="../css/main.css">
+    <!-- Cart Css -->
+    <link rel="stylesheet" href="../css/cart.css">
     <!-- Profile Css -->
     <link rel="stylesheet" href="../css/profile.css">
     <title>Profile | Maimouni's Furniture</title>
@@ -89,21 +91,28 @@
 
     <section class="profile">
         <div class="custom-container">
+            <div class="row row-gap-4 pb-5 ">
+                <div class="col text-end ">
+                    <a href="#" class="btn btn-primary">Your orders <i class="ri-shopping-bag-line mb-3"></i></a>
+                    <a href="#" class="btn btn-outline-danger">Logout <i class="ri-logout-box-r-line"></i></a>
+                </div>
+            </div>
+
             <div class="row row-gap-4 ">
-                <div class="col-lg-6 col-md-6 col-sm-12 mx-auto account-info">
-                    <div class="header-title text-lg-center text-md-center text-sm-left">
-                        <h4 class="fw-semibold mb-4">Account Information</h4>
+                <div class="col-lg-4 col-md-4 col-sm-12 mx-auto account-info text-md-center text-sm-left">
+                    <div class="header-title">
+                        <h4 class="fw-semibold mb-5 ">Account Information</h4>
                     </div>
                     <div class="information">
-                        <p class="fs-5 fw-semibold">Username : <span>Ahmed</span> </p>
-                        <p class="fs-5 fw-semibold">Email : <span>Ahmed@gmail.com</span> </p>
-                        <a href="#" class="btn btn-primary">Your orders <i class="ri-shopping-bag-line mb-3"></i></a>
-                        <a href="#" class="btn btn-outline-danger">Logout</a>
+                        <p class="fs-5 fw-semibold mb-4">Username : <span>Ahmed</span> </p>
+                        <p class="fs-5 fw-semibold mb-4">Email : <span>Ahmed@gmail.com</span> </p>
+                        <!-- <a href="#" class="btn btn-primary">Your orders <i class="ri-shopping-bag-line mb-3"></i></a>
+                        <a href="#" class="btn btn-outline-danger">Logout</a> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-auto">
                     <div class="header-title text-lg-center text-md-center text-sm-left">
-                        <h4 class="fw-semibold mb-4">Change Password</h4>
+                        <h4 class="fw-semibold mb-5">Change Password</h4>
                     </div>
                     <form action="/" method="post">
 
@@ -120,7 +129,7 @@
 
                         </div>
 
-                        <div class="mb-3">
+                        <div class="mb-3 text-center ">
                             <button class="btn btn-primary accordion rounded-pill" type="submit">Save changes</button>
                         </div>
                     </form>
@@ -128,6 +137,44 @@
             </div>
         </div>
     </section>
+    <!-- Start Orders -->
+    <section class="section-cart orders">
+        <div class="custom-container">
+            <div class="table-content">
+                <table class="cart-table ">
+                    <thead>
+                        <tr>
+                            <th colspan="3">Shopping Bag</th>
+                            <th>Date</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="../assets/accessories/photo1.png" alt="product" class="cart-image"></td>
+                            <td colspan="2">Carmen Douce King Cube Carmen Douce King Cube</td>
+                            <td>2024-03-03</td>
+
+                        </tr>
+                        <tr>
+                            <td><img src="../assets/accessories/photo1.png" alt="product" class="cart-image"></td>
+                            <td colspan="2">Carmen Douce King Cube Carmen Douce King Cube</td>
+                            <td>2024-03-03</td>
+
+                        </tr>
+                        <tr>
+                            <td><img src="../assets/accessories/photo1.png" alt="product" class="cart-image"></td>
+                            <td colspan="2">Carmen Douce King Cube Carmen Douce King Cube</td>
+                            <td>2024-03-03</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Orders -->
 
     <footer class="text-center text-lg-start mb-3">
         <!-- Grid container -->

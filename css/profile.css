@@ -15,6 +15,7 @@
     --mainPadding: 90px;
 
 }
+
 .profile {
     padding: calc(var(--mainPadding) / 2) 0;
 }
@@ -22,22 +23,27 @@
 .profile .header-title h4 {
     color: var(--text-color);
 }
+
 .profile form label {
     color: var(--text-color);
 }
+
 .profile form input,
 .profile form input:focus {
     color: var(--text-color);
     background-color: var(--container-color);
 }
+
 .profile form input::placeholder {
     color: var(--paragraph-color);
     font-size: .90rem;
 }
-.account-info {
+
+/* .account-info {
     border-right: 5px solid var(--paragraph-color);
-}
-@media (max-width:767px){
+} */
+
+@media (max-width:767px) {
     .account-info {
         border-right: none;
     }
@@ -45,4 +51,9 @@
 
 .profile .information {
     color: var(--text-color);
+}
+
+.orders tbody tr td .cart-image {
+    max-width: 70px;
+    border-radius: .5rem;
 }
